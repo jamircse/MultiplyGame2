@@ -1,0 +1,103 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+}
+.gamearea{
+    width: 400px;
+    /* height: 270px; */
+    box-shadow: 2px 0 4px 0 rgba(0, 0,0, 0.3);
+    text-align: center;
+    padding: 20px;
+    background:#FF8C00;
+}
+.msg_scroe{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.score,.timeleft{
+    box-shadow:2px 2px 2px 4px rgba(0, 0,0, 0.3);
+    padding:5px;
+    border-radius:5px;
+    background: #fff;
+}
+.question{
+    background:rgba(255, 0, 0, 0.601);
+    padding:20px;
+    border-radius:5px;
+    color: #fff;
+    box-shadow:2px 2px 0 4px rgba(0, 0,0, 0.1);
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+   
+}
+.options lebel{
+    padding:10px;
+    border:1px solid #fff;
+    border-radius:5px;
+    font-weight: 700;
+    font-size:20px;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    box-shadow:0 2px 0 4px rgba(0, 0,0, 0.3);
+    
+}
+.options lebel:hover{
+    background: rgba(255, 0, 0, 0.601);
+    color:#fff;
+}
+.reset_time{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.reset_time button{
+    padding:5px 25px;
+    border-radius:5px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+    font-size:15px;
+    box-shadow:0 2px 0 4px rgba(0, 0,0, 0.3);
+}
+
+/* message show  */
+
+.msg{
+    /* padding: 5px 10px; */
+    position: absolute;
+    top:0;
+    right:0;
+    border-radius:10px;
+
+}
+.bg-success{
+  
+    margin: 0.5rem 0;
+    padding:0.5rem;
+    text-align: center;
+    color: #000;
+    background-color:#2f8ed2;
+  }
+  .bg-danger{
+    margin: 0.5rem 0;
+    padding:0.5rem;
+    text-align: center;
+    color: #fff;
+    background-color:#f01e0f;
+  }
